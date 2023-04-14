@@ -86,3 +86,11 @@ python study.py
 </pre>
 
 This will generate and display the sequence for the first `ROWS_TO_STUDY` rows of Pascal's triangle. To adjust the number of rows you wish to study, simply modify this variable to your desired value. The default value is `100`.
+
+## Example:
+
+The first 175 rows of Pascal's triangle yields the following sequence:
+
+<pre>
+[3, 6, 9, 9, 6, 3, 9, 6, 3, 9, 9, 9, 9, 9, 6, 3, 9, 3, 6, 9, 9, 9, 9, 6, 3, 9, 9, 3, 6, 9, 3, 6, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 3, 9, 3, 6, 9, 9, 9, 9, 3, 6, 9, 6, 3, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 6, 3, 9, 9, 3]
+</pre>
