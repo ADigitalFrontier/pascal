@@ -4,7 +4,7 @@
 
 ## Repository Overview
 
-This repository contains a program to study the digital roots of the center "column" of Pascal's Triangle, along with code for generating and displaying Pascal's triangles. The central elements exhibit interesting properties with their digital roots, and this project aims to explore these properties and validate hand-written observations with thousands of program-generated examples.
+This repository contains a program to study the digital roots of the center "column" of Pascal's Triangle, along with code for generating and displaying Pascal's triangles. The central elements exhibit interesting properties with their digital roots, and this project aims to explore these properties and validate hand-written observations with thousands of additional programmatically-generated examples.
 
 ## Files
 
