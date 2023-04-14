@@ -1,2 +1,2 @@
-# Excluse pycache
 global-exclude __pycache__
+*.pyc

@@ -1,14 +1,11 @@
 # Author: Aaron Stone
 # Created: 4/14/2023
 # 
-# This program studies the digital roots of the center "column" of Pascal's triangle, i.e: [1, 2, 6, 20, 70, 252, 924, etc..].
-# From a simple hand-written observation it seems that the digital root of each center element is either 3, 6, or 9, or follows
-# the following property: If the digital root of the element is not 9, then for each element on the left and on the right of the
-# element, add its digital root to the elements digital root, and continue left and right until a 3, 6, or 9 is reached. Do not
-# add the 3, 6, or 9 boundary elements. This grouping of non-369 elements seems to always yield a digital root of either 3 6 or 9.
-# This program verifies my hand-written observations with thousands of additional, programmatically generated examples, which seem
-# to indicate that this property likely holds for any number of rows. Additionally, it seems that this sequence converges to repeating
-# 9s as it increases in length.
+# This program studies the sequence defined in README.md
+
+
+# Modify this variable to set the number of rows you wish to consider when generating the sequence
+ROWS_TO_STUDY = 100
 
 
 from pascal import gen_triangle
@@ -30,7 +27,7 @@ def get_partition(arr, start, end):
     return arr[start:end]
 
 
-to_study = gen_triangle(3000)
+to_study = gen_triangle(ROWS_TO_STUDY)
 
 
 center_elems = []

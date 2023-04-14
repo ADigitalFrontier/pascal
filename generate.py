@@ -1,11 +1,7 @@
 # Author: Aaron Stone
 # Created: 4/14/2023
 # 
-# This will launch a user interface that allows you to generate Pascal's triangles.
-# You will be prompted to enter the number of rows for the triangle, and the program will
-# then generate and display the Pascal's triangle with the specified number of rows.
-# After viewing the generated triangle, you can choose to generate a new triangle or
-# exit the program by entering 'Y' (yes) or 'N' (no) when prompted.
+# This file creates a terminal-based user interface for generating Pascal's triangles.
 
 from pascal import gen_triangle, print_triangle
 
