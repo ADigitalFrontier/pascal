@@ -1,3 +1,9 @@
+# Author: Aaron Stone
+# Created: 4/14/2023
+# 
+# This program provides various functions for generating and displaying Pascal's triangles.
+
+
 def gen_row(prev_row):
     current_row = [1]
     for i in range(1, len(prev_row)):

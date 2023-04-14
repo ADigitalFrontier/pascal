@@ -1,3 +1,8 @@
+# Author: Aaron Stone
+# Created: 4/14/2023
+# 
+# User interface for the Pascal's triangle generator.
+
 from pascal import gen_triangle, print_triangle
 
 exit_prog = False
