@@ -17,7 +17,7 @@ def get_partition(arr, start, end):
     return arr[start:end]
 
 
-to_study = gen_triangle(20)
+to_study = gen_triangle(3000)
 
 
 center_elems = []
@@ -32,13 +32,24 @@ for celem in center_elems:
     center_droots.append(digital_root(celem))
 
 
+integer_sequence = []
+
+
 last_start = 0
 for cur_index, num in enumerate(center_droots):
     if num == 3 or num == 6 or num == 9:
         partition = get_partition(center_droots, last_start, cur_index)
         if len(partition) > 0:
-            print("P: " + str(digital_root(sum(partition))))
-        print(num)
+            dr = digital_root(sum(partition))
+            integer_sequence.append(dr)
+            # print("P: " + str(dr))
+        # print(num)
+        integer_sequence.append(num)
         last_start = cur_index+1
 partition = get_partition(center_droots, last_start, len(center_droots))
-print("P: " + str(digital_root(sum(partition))))
+if len(partition) > 0:
+    dr = digital_root(sum(partition))
+    integer_sequence.append(dr)
+    # print("P: " + str(dr))
+
+print(integer_sequence)
