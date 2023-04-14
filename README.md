@@ -32,5 +32,7 @@ The program verifies the hand-written observations with thousands of additional,
 ## Usage Instructions
 
 To use the program, simply run the `main.py` file with Python:
+
 `python main.py`
+
 This will launch a user interface that allows you to generate Pascal's triangles. You will be prompted to enter the number of rows for the triangle, and the program will then generate and display the Pascal's triangle with the specified number of rows. After viewing the generated triangle, you can choose to generate a new triangle or exit the program by entering 'Y' (yes) or 'N' (no) when prompted.
