@@ -14,7 +14,7 @@ def gen_row(prev_row):
 
 def gen_triangle(rows):
     triangle = [[1]]
-    for i in range(rows):
+    for i in range(rows-1):
         triangle.append(gen_row(triangle[-1]))
     return triangle
 
